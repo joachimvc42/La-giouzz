@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  /* Palette reprise du logo : or chaud, crème, encre douce */
+  --color-gold-50: #fdf9f0;
+  --color-gold-100: #f8efd9;
+  --color-gold-200: #eeddb0;
+  --color-gold-300: #e0c47c;
+  --color-gold-400: #d2a94b;
+  --color-gold-500: #c9962b;
+  --color-gold-600: #ac7c1e;
+  --color-gold-700: #8a6018;
+  --color-cream: #fbf8f3;
+  --color-ink: #3a352f;
+  --color-ink-soft: #6f675d;
+
+  --font-serif: var(--font-cormorant), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-open-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* compense l'en-tête fixe lors des sauts vers une ancre */
+  scroll-padding-top: 6rem;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+/* Les témoignages contiennent des retours à la ligne volontaires. */
+.preserve-breaks {
+  white-space: pre-line;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
