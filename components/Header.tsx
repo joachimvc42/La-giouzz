@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { nav, site, whatsappUrl } from "@/content/site";
+import { nav, site } from "@/content/site";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -16,27 +16,6 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-gold-100 bg-cream/95 backdrop-blur">
-      <div className="bg-gold-500 text-white">
-        <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-2 text-xs tracking-wide sm:px-8">
-          <a
-            href={site.facebook}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:underline"
-          >
-            Facebook
-          </a>
-          <div className="flex items-center gap-4">
-            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="hover:underline">
-              WhatsApp
-            </a>
-            <a href={site.phoneHref} className="hover:underline">
-              Appeler
-            </a>
-          </div>
-        </div>
-      </div>
-
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-4 sm:px-8">
         <Link href="/" aria-label={`${site.name} — accueil`} className="block">
           <Image
