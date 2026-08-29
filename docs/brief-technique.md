@@ -135,6 +135,28 @@ au-delà, avec Lausanne comme option présentielle.
 - Chaque soin doit indiquer s'il est possible **en cabine, à distance, ou les deux**.
 - SEO : viser « thérapeute énergéticienne Lausanne » **et** « soin énergétique à distance ».
 
+## 6bis. Ce qu'il y a réellement à résilier (vérifié le 29.08.2026)
+
+Il n'existe **pas d'abonnement WordPress** à part. WordPress est un logiciel libre et
+gratuit ; chez Infomaniak il est inclus dans l'hébergement Web standard, avec
+installation automatique. Ce qui est facturé, c'est donc :
+
+| Poste | Chez qui | Ordre de grandeur | Après migration |
+|---|---|---|---|
+| Hébergement Web (WordPress inclus) | Infomaniak | dès ~CHF 10.90/mois | **à résilier** |
+| Nom de domaine .ch | facturé séparément | ~CHF 15.–/an | **à garder** |
+| Service Mail (si des adresses @giuseppinarui.ch existent) | Infomaniak | séparé | **à vérifier avant de résilier** |
+| Licences de plugins/thème (Slider Revolution, thème nd-shortcodes) | éditeurs tiers | achats/renouvellements | à vérifier |
+| Shopify | Shopify | ~CHF 30/mois | ✅ résilié le 29.08.2026 |
+
+⚠️ Deux pièges à vérifier dans l'espace client Infomaniak avant toute résiliation :
+1. **Le domaine se résilie séparément de l'hébergement.** Résilier l'hébergement ne doit
+   pas emporter le domaine — vérifier qu'ils sont bien sur deux lignes de commande.
+2. **Les adresses e-mail.** Si des boîtes @giuseppinarui.ch existent chez Infomaniak,
+   elles dépendent d'un service distinct de l'hébergement Web. Le nouveau site n'a
+   besoin d'aucune boîte (le formulaire écrit vers giuseppinarui@gmail.com), mais il ne
+   faut pas couper une adresse encore utilisée par erreur.
+
 ## 7. Points restants
 
 - **E-mail de contact** : destinataire du formulaire, et faut-il l'afficher publiquement ?
